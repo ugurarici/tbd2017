@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+	line-height: 1.6;
+	font-size: 24px;
+	background-color: #eee;
+	color: #212121;
+}
+
+header{
+	display: block;
+	width: 100%;
+	height: 250px;
+	background-image: url("hattusa.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+header h1{
+	color: white;
+}
+
+.overlay{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .6);
+}
+
+.flex-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container{
+	width: 60%;
+	margin: auto;
+}
+
+.container img{
+	max-width: 100%;
+}
+
+.highlight{
+	background-color: yellow;
+	color: black;
+}
+
+
+h1, h2{
+	color: orange;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "Herculanum";
+}
