@@ -33,3 +33,13 @@ if (!function_exists('stats_standard_deviation')) {
         return sqrt($carry / $n);
     }
 }
+
+
+function dd($any)
+{
+    echo "<pre style='font-size:24px;'>";
+    var_dump($any);
+    echo "</pre>";
+    die();
+}
+

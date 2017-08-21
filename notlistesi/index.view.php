@@ -12,12 +12,12 @@
 			<div class="col-8">
 				<h1>Not Listesi</h1>
 				<div class="btn-group" role="group" aria-label="Sırala">
-					<a href="?sort=ksort" class="btn btn-secondary">A-Z</a>
-					<a href="?sort=krsort" class="btn btn-secondary">Z-A</a>
+					<a href="?sort=name-asc" class="btn <?=$siralama=="ksort" ? "btn-primary" : "btn-secondary";?>">A-Z</a>
+					<a href="?sort=name-desc" class="btn <?=$siralama=="krsort" ? "btn-primary" : "btn-secondary";?>">Z-A</a>
 				</div>
 				<div class="btn-group" role="group" aria-label="Sırala">
-					<a href="?sort=asort" class="btn btn-secondary">0-9</a>
-					<a href="?sort=arsort" class="btn btn-secondary">9-0</a>
+					<a href="?sort=grade-asc" class="btn <?=$siralama=="asort" ? "btn-primary" : "btn-secondary";?>">0-9</a>
+					<a href="?sort=grade-desc" class="btn <?=$siralama=="arsort" ? "btn-primary" : "btn-secondary";?>">9-0</a>
 				</div>
 				<table class="table table-striped">
 					<thead>
