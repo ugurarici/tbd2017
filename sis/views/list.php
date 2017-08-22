@@ -10,11 +10,14 @@
 <body style="padding-top: 30px;">
 	<div class="container">
 		<div class="row">
-			<div class="col-10">
+			<div class="col-8">
 				<h1>Öğrenciler</h1>
 			</div>
-			<div class="col-2">
-				<a href="add.php" class="btn btn-primary btn-block">+ Yeni Öğrenci</a>
+			<div class="col-4">
+				<div class="btn-group pull-right">
+					<a href="add.php" class="btn btn-primary">+ Yeni Öğrenci</a>
+					<a href="logout.php" class="btn btn-danger">Çıkış Yap</a>
+				</div>
 			</div>
 		</div>
 		<div class="row">

@@ -1,6 +1,6 @@
 <?php
 
-require_once "classes/Student.php";
+require_once "inc/init.php";
 
 // //	bütün öğrencileri almak istediğimizde
 // $students = Student::all();
@@ -23,6 +23,9 @@ require_once "classes/Student.php";
 
 // //	yeni girdiyi kaydetme
 // $student->save();
+
+
+redirectIfNotLoggedIn();
 
 $search = null;
 

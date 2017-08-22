@@ -1,6 +1,8 @@
 <?php
 
-require_once "classes/Student.php";
+require_once "inc/init.php";
+
+redirectIfNotLoggedIn();
 
 $idToUpdate = (int)$_GET['id'];
 
